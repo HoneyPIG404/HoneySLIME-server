@@ -1,0 +1,11 @@
+options:
+
+
+on first join:
+    set {hmoney.%player%} to 500
+    send "&f[ &6Honey&aSlime &f] &6꿀 500g이 지급되었습니다."
+
+command /꿀 [<text>] [<player>] [<integer>]:
+    trigger:
+        if arg 1 is not set:
+            send ""
